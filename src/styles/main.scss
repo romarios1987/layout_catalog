@@ -42,11 +42,19 @@ a {
   border-radius: 5px;
   color: $text-color;
 
-  transition: all 0.5s ease;
+  @include mt(0.5s);
 
   &__img {
     width: 160px;
     height: 134px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+      border-radius: 3px;
+      margin: -3px;
+      border: 3px solid #f3f3f3;
+    }
   }
 
   &__content {
@@ -67,6 +75,10 @@ a {
 
   &__title--link {
     color: $text-color;
+    @include mt(0.5s);
+    &:hover {
+      color: $active-color;
+    }
   }
 
   &__price,
@@ -107,7 +119,7 @@ a {
     border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
-    transition: all 0.5s ease;
+    @include mt(0.5s);
 
     &:hover {
       background: #fff;

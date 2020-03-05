@@ -1,2 +1,6 @@
 $active-color: #00acdc;
 $text-color: #000;
+
+@mixin mt($time) {
+  transition: all $time ease;
+}

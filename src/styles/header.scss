@@ -35,6 +35,7 @@
     color: #000;
     display: inline-block;
     line-height: 60px;
+    @include mt(0.5s);
     &:hover {
       color: $active-color;
     }
