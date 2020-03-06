@@ -32,7 +32,7 @@ a {
   align-items: center;
   flex-direction: column;
   width: 200px;
-  padding: 30px 0 15px;
+  padding: 18px 0 15px;
   margin-bottom: 50px;
   box-sizing: border-box;
 
@@ -49,6 +49,7 @@ a {
     height: 134px;
     cursor: pointer;
     transition: transform 1s ease-in-out;
+    padding: 12px 0 10px;
     &:hover {
       transform: scale(1.2);
       border-radius: 3px;
@@ -61,7 +62,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 170px;
-    margin-top: 45px;
+    margin-top: 35px;
   }
 
   &__title {
